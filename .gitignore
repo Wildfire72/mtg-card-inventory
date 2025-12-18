@@ -3,6 +3,7 @@
 node_modules/
 dist/
 out/
+MTGCardManager-win32-x64/
 
 # OS / Editor
 .DS_Store

@@ -1,10 +1,11 @@
 {
-  "name": "inventorysystem",
+  "name": "MTG Inventory",
   "version": "1.0.0",
   "description": "Magic: the Gathering card inventory system and search",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "dist": "electron-builder",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +13,15 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "electron": "^39.2.7"
+    "electron": "^39.2.7",
+    "electron-builder": "^26.0.12",
+    "electron-packager": "^17.1.2"
+  },
+  "build": {
+  "appId": "com.mvierow.mtgcardmanager",
+  "win": {
+    "target": "nsis",
+    "icon": "icon.ico"
   }
+}
 }
