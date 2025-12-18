@@ -1,5 +1,5 @@
 {
-  "name": "MTG Inventory",
+  "name": "MTGInventory",
   "version": "1.0.0",
   "description": "Magic: the Gathering card inventory system and search",
   "main": "main.js",
@@ -18,10 +18,13 @@
     "electron-packager": "^17.1.2"
   },
   "build": {
-  "appId": "com.mvierow.mtgcardmanager",
-  "win": {
-    "target": "nsis",
-    "icon": "icon.ico"
+    "appId": "com.mvierow.mtgcardmanager",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    }
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.5.0"
   }
-}
 }
