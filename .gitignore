@@ -1,0 +1,12 @@
+
+# Node / Electron
+node_modules/
+dist/
+out/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
